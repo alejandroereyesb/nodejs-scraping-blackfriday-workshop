@@ -100,4 +100,13 @@ const scrap = async (url) => {
 exports.scrap = scrap;
 
 /********** DESCOMENTAR PARA PROBAR *********/
-//scrap("https://www.coolmod.com/novedades/").then(data =>console.log(data))
+/*
+scrap("https://www.coolmod.com/novedades/").then(data =>{
+    console.log(data)
+    // aquí podríamos guardar los datos (por ejemplo) en la base de datos con mongoose
+    // Ejemplo:
+    // Product.insertMany(data).then(()=>{
+    //     console.log("Productos guardados en la base de datos")
+    // }).catch(err=>console.log(err))
+})
+    */
